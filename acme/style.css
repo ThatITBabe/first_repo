@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* box-sizing: border-box; */
+}
+nav{
+    width: auto;
+    height: 80px;
+    background-color: #35424a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-bottom: 5px solid #e8491d;
+    border-left: 5px solid #e8491d;
+    border-right: 5px solid #e8491d;
+}
+.Logo{
+    color: white;
+    font-size: 40px;
+}
+.acme{
+    color: #e8491d;
+}
+.links a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.links a:hover{
+    color: #e8491d;
+}
+main{
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(me.jpg);
+    background-size:contain;
+    opacity: 0.6;
+}
+main h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #e8491d;
+    font-weight: bolder;
+}
+main p{
+    color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    color: #e8491d;
+    font-weight: bolder;
+}
+section{
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #35424a;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+section p{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+section button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e8491d;
+    color: white;
+}
+aside{
+    width: auto;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 350px;
+}
+aside img{
+    height: 100px;
+    width: 100px;
+}
+aside h3{
+    text-align: center;
+    margin: 20px;
+}
+aside p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: light;
+}
+.cards{
+    height: 300px;
+    width: 33.3%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer{
+    width: auto;
+    height: 70px;
+    background: #e8491d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
